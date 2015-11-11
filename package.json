@@ -8,7 +8,7 @@
     "npm": "1.4.x"
   },
   "dependencies": {
-    "macstack": "0.0.9"
+    "macstack": "0.0.10"
   },
   "devDependencies": {}
 }
