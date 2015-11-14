@@ -1,7 +1,7 @@
 {
   "name": "macstack-example",
   "description": "",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Gregory Thompson",
   "engines": {
     "node": "0.12.x",
