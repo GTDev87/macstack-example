@@ -3,10 +3,11 @@
  * Module dependencies.
  */
 
-var macstack = require("macstack")();
+var macstack = require("macstack");
 
-macstack.addRoute("/", function (req, res, data){
-  res.json({data: data});
+macstack(function (macstackApp) {
+  macstackApp.addRoute("/", function (req, res, data){
+    res.json({data: data});
+  });
+  macstackApp.run();
 });
-
-macstack.run();
